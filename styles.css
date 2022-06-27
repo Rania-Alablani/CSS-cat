@@ -1,0 +1,163 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #a2d594;
+}
+.container{
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.cat{
+position: relative;
+top: 150px;
+left: 50px;
+}
+
+.face{
+  height: 90px;
+  width: 150px;
+  background-color: #33292b;
+  border-radius: 30px;
+
+}
+
+.Lear, .Rear{
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #33292b;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  z-index: -1;
+}
+
+.Lear{
+  bottom: 35px;
+  transform: rotate(-30deg);
+}
+
+.Rear{
+  bottom: 85px;
+  left: 110px;
+  transform: rotate(30deg);
+}
+
+.Linner{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-left: 25px solid transparent;
+  right: 25px;
+  position: relative;
+}
+
+.Rinner{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-right: 25px solid transparent;
+  position: relative;
+}
+
+.Leye , .Reye{
+  height: 30px;
+  width: 30px;
+  background-color: #d28738;
+  border-radius: 50%;
+  position: relative;
+}
+
+.Leye {
+  bottom: 75px;
+  left: 30px;
+}
+
+.Reye{
+  bottom: 105px;
+  left: 90px;
+}
+
+.eyeball{
+  height: 24px;
+  width: 24px;
+  background-color: #33292b;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+.nose{
+  height: 0px;
+  width: 0px;
+  border-top: 8px solid #d36149;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position:relative;
+  bottom: 110px;
+  left: 70px;
+}
+
+.line1 , .line2{
+  background-color: #d36149;
+  position: relative;
+  height: 8px;
+  width: 1px;
+}
+
+.line1{
+  transform: rotate(45deg);
+  right: 4px;
+  bottom: 1.5px;
+}
+
+.line2{
+  transform: rotate(-45deg);
+  bottom: 10px;
+  left: 3px;
+}
+
+.body{
+  height: 120px;
+  width: 130px;
+  position: relative;
+  left: 30px;
+  background-color: #33292b;
+  border-radius: 0 50px 0 0;
+}
+
+.Lleg , .Rleg{
+  height: 10px;
+  width: 22px;
+  position: relative;
+  background-color: #33292b;
+  border-radius: 0 0 10px 10px;
+}
+
+.Lleg{
+  top: 120px;
+}
+
+.Rleg{
+  top: 110px;
+  left: 45px;
+}
+
+.tail{
+  height: 20px;
+  width: 150px;
+  background-color: #33292b;
+  position: relative;
+  border-radius: 0 10px 10px 10px;
+  top: 80px;
+  left: 50px;
+
+}
